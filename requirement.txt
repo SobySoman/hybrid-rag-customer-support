@@ -1,0 +1,36 @@
+
+# Core data analysis
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+
+# Machine learning
+scikit-learn
+
+# NLP and text processing
+nltk
+transformers
+datasets
+sentence-transformers
+
+# RAG and vector database
+chromadb
+rank-bm25
+
+# LLM fine-tuning
+peft
+trl
+accelerate
+bitsandbytes
+
+# Evaluation
+evaluate
+rouge-score
+sacrebleu
+
+# Utilities and notebooks
+tqdm
+jupyter
+ipykernel
