@@ -15,6 +15,24 @@ This project explores how Large Language Models (LLMs) can be used to improve cu
 
 The project implements and evaluates these approaches to understand their effectiveness in generating relevant and consistent customer support responses.
 
+flowchart TD
+    A[Customer Support Dataset] --> B[Data Preparation and EDA]
+    B --> C[Hybrid RAG Pipeline]
+    B --> D[Fine-Tuning Pipeline]
+
+    C --> E[Semantic Retrieval]
+    C --> F[Keyword Retrieval]
+    E --> G[Context Assembly]
+    F --> G
+    G --> H[LLM Response Generation]
+
+    D --> I[Training Data Preparation]
+    I --> J[LLM Fine-Tuning]
+    J --> K[Fine-Tuned Model]
+
+    H --> L[Response Evaluation]
+    K --> L
+    L --> M[Comparative Analysis]
 ## Project Objectives
 
 - Understand and explore customer support conversational data.
